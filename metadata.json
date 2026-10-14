@@ -1,0 +1,6 @@
+{
+  "name": "VisualTrace - Image OSINT & Reverse Search Engine",
+  "description": "Upload any photo to find where it appears online across social media, search engines, news outlets, and digital platforms with comprehensive OSINT analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
