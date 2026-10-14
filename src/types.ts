@@ -37,11 +37,14 @@ export interface VisualAnalysis {
   osintDorks: string[];
 }
 
+export type ResultCategoryFilter = 'all' | 'social' | 'news' | 'web';
+
 export interface GroundedResult {
   title: string;
   url: string;
   domain?: string;
   snippet?: string;
+  category?: 'social' | 'news' | 'web';
 }
 
 export interface ReverseEngineLink {
